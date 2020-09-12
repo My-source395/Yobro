@@ -1,0 +1,44 @@
+install.packages("gapminder")
+library (gapminder) 
+gapminder
+gapminder %>%
+  mutate(pop = pop/1000000)
+install.packages ("tidyverse")
+gapminder %>%
+  mutate(pop = pop/1000000)
+library(gapminder)
+gapminder
+gapmider %>%
+  mutate (pop = pop/1000000)
+install.packages("dplyr")
+
+gapminder %>%
+  mutate(pop = pop/1000000)
+library(gapminder)
+library(dplyr)
+library(tidyverse)
+gapminder %>%
+  mutate(pop = pop/1000000)
+gapminder %>%
+  filter(year == 2007)
+gapminder %>%
+  filter (country == "United States", year == 2007)
+gapminder %>%
+  mutate(gdp = gdpPercap * pop)
+gapminder %>%
+  arrange (desc(gdpPercap))
+gapminder %>%
+  filter(year == 2007)
+gapminder %>% 
+  filter( country == "United States")
+gapminder %>%
+  filter(year == 2007, country == "United States")
+gapminder %>%
+  arrange (gdpPercap)
+gapminder %>%
+  filter (year == 2007) %>%
+  arrange (desc(gdpPercap))
+gapminder%>%
+  mutate (pop = pop/1000000)
+gapminder %>%
+  mutate (gdp = gdpPercap * pop)

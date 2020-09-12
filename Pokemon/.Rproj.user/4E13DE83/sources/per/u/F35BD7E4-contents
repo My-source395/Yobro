@@ -1,0 +1,7 @@
+install.packages ("dslabs")
+library(dslabs)
+library(tidyverse)
+install.packages ("tidyverse")
+installed.packages()
+library(tidyverse)
+tidyverse
